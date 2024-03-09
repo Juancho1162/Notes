@@ -1,0 +1,23 @@
+#matemáticas #matemáticas/estadística
+### The Probability Space
+A probability space is a mathematical triplet ($\Omega$, $\mathcal{F}$, $\mathcal{P}$) that represent a **model** in which $\Omega$, $\mathcal{F}$, $\mathcal{P}$ need to be defined, fulfilling certain conditions.
+
+- **The *Sample Space $\Omega$*** is the set of all possible outcomes. An outcome is the result of a single execution of the model. **Is an arbitrary non-empty set.**
+- The ***$\mathbf{\sigma}$-algebra ($\mathcal{F}$)*** is a collection of all events ($\mathcal{A}_i$) we would like to consider, such that:
+	- $\Omega \in \mathcal{F}$
+	- If $A \in \mathcal{F}$, then $\{x \in \Omega / x \notin A\} = \mathcal{A}^{c}(\Omega)$ $\in \mathcal{F}$. *This assures coherence, without this condition we couldn't define things like "the probability of the Event A1 not happening"*.
+	- If $\mathcal{A}_i \in \mathcal{F}$ $for$ $i=1,2,...,$ then also $(\bigcup_{i=1} ^\infty \mathcal{A}_i)$ $\in \mathcal{F}$. *This assures that every possible union of events exists.*
+		- As a corollary from the previous two properties and *De Morgan's laws*$(A \cup B)^c = A^c \cap B^c$, and ($A \cap B)^c = A^c \cup B^c$, 
+	
+
+*Probability function --> $P$*
+*Probability Space --> ($\Omega, \Psi, P$)*
+
+$\Psi$ needs to fulfil the following properties:
+- $\Omega \in \Psi$ 
+- 
+The probability P is a function defined on the collection $\Psi$ of all subsets of $\Omega$ which fulfils the following properties:
+- $0 \leq P(A) \leq 1$ $\forall$  A
+-
+
+
