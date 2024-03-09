@@ -11,6 +11,3 @@ A probability space is a mathematical triplet ($\Omega$, $\mathcal{F}$, $\mathca
 - The ***probability measure $\mathcal{P}$*** is a set function returning an event's probability. $\mathcal{P} : \mathcal{F} \rightarrow [0,1]$ such that:
 	- The measure of the entire sample space is equal to one: $P(\Omega)=1$.
 	- $\mathcal{P}$ is countably additive (also called $\sigma$-*additive*)
-
-
-
