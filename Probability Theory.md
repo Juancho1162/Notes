@@ -10,14 +10,6 @@ A probability space is a mathematical triplet ($\Omega$, $\mathcal{F}$, $\mathca
 		- As a corollary from the previous two properties and *De Morgan's laws*$(A \cup B)^c = A^c \cap B^c$, and ($A \cap B)^c = A^c \cup B^c$, 
 	
 
-*Probability function --> $P$*
-*Probability Space --> ($\Omega, \Psi, P$)*
 
-$\Psi$ needs to fulfil the following properties:
-- $\Omega \in \Psi$ 
-- 
-The probability P is a function defined on the collection $\Psi$ of all subsets of $\Omega$ which fulfils the following properties:
-- $0 \leq P(A) \leq 1$ $\forall$  A
--
 
 
