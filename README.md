@@ -1,2 +1,2 @@
 # Notes
-Respository for storing the notes I take since march of 2024.
+Respository for storing the notes I take in Obsidian since march of 2024.
