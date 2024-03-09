@@ -143,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af3df6ad2283a188",
+  "active": "c1a4f966397f05c6",
   "lastOpenFiles": [
     "Probability Theory.md",
     "README.md",
