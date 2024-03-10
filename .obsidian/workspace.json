@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probability and Inference.md",
+                "file": "Maths/Probability and Inference.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probability and Inference.md",
+                "file": "Maths/Probability and Inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probability and Inference.md",
+                "file": "Maths/Probability and Inference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probability and Inference.md"
+                "file": "Maths/Probability and Inference.md"
               }
             }
           },
@@ -155,12 +155,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1a4f966397f05c6",
+  "active": "e8286e26ab0a2fbf",
   "lastOpenFiles": [
-    "Descriptive Statistics.md",
-    "Álgebra Lineal.md",
-    "Probability and Inference.md",
+    "Algorithms",
+    "Coding",
     "README.md",
+    "Maths/Linear Algebra.md",
+    "Maths/Descriptive Statistics.md",
+    "Maths/Probability and Inference.md",
+    "Maths",
     "Sin título.canvas",
     "Sin título 1.canvas",
     "2024-03-08.md",
