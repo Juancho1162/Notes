@@ -36,5 +36,9 @@ P(A)=\frac{C(A)}{C(\Omega)}\text{, being $C(X)$ the cardinality of X.}
 $$
 
 ###### Subjective Probability Definition
+*(Related to Bayesian Philosophy of Science)*
 The subjective definition of probability, as advocated by Bruno de Finetti, diverges from the classical interpretations of probability, venturing into the realm of personal belief and uncertainty. This view rejects the notion that probability is a physical or empirical property of the external world and argued instead that is a measure of an individual's  personal belief or degree of confidence in the occurrence of a particular event, based on the information available at the time.
 
+Based on this, probability is not objective or universal; rather, it is personal and varies from one individual to another, depending on their knowledge, experience, and analysis of the available information. **The probability of an event is, therefore, an expression of a person's willingness to bet on the occurrence of that event.**
+
+De

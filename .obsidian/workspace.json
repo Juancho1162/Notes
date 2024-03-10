@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5,
-    "collapsed": true
+    "width": 234.5
   },
   "right": {
     "id": "71125f769ab46af9",
@@ -157,12 +156,15 @@
   },
   "active": "c1a4f966397f05c6",
   "lastOpenFiles": [
+    "README.md",
+    "Annotated/Test.md",
+    "Maths/Probability and Inference.md",
+    "Annotated/Untit.md",
+    "Annotated",
     "Maths/Descriptive Statistics.md",
     "Maths/Linear Algebra.md",
-    "Maths/Probability and Inference.md",
     "Algorithms",
     "Coding",
-    "README.md",
     "Maths",
     "Sin título.canvas",
     "Sin título 1.canvas",
