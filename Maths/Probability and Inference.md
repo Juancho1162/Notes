@@ -16,4 +16,25 @@ A probability space is a mathematical triplet ($\Omega$, $\mathcal{F}$, $\mathca
 #### Definitions of Probability
 The previous definition of probability is purely formal and does not give an actual meaning to the term probability. Let's do a brief explanation about the two most common definitions. 
 ###### Frequentist Probability Definition (Richard Von Mises)
-There is a close connection between the relative frequency and probability of an event. A random experiment is described by its possible outcomes. Suppose an experiment has $m$ possible outcoumes $A_1, A_2, ..., A_m$  and the experiment is repeated n times. Now we can count how many times each of the possible outcomes has occurred, the **absolute frecuency**  $n_i = n(A_i)$  which is the number of times the event  $A_i$  has happened. The relative frequency of a random event  $A_i$  with $n$ repetitions of the experiment, is calculated as:
+There is a close connection between the relative frequency and probability of an event. A random experiment is described by its possible outcomes. Suppose an experiment has $m$ possible outcoumes $A_1, A_2, ..., A_m$  and the experiment is repeated n times. Now we can count how many times each of the possible outcomes has occurred, the **absolute frequency**, which is the number of times the event  $A_i$  has happened:
+$$
+n_i = n(A_i)
+$$
+The **relative frequency** of a random event  $A_i$  with $n$ repetitions of the experiment, is calculated as:
+$$
+f_i = f(A_i) = \frac{n_i}{n}
+$$
+If we assume that the experiment is repeated a large number of times and the experimental conditions remain the same over all repetitions, then the relative frequency $f(A)$ converges to a limiting value for $A$. **This limiting value is interpreted as the probability of $A$ and is denoted by $P(A)$, i.e.**
+$$
+P(A) = \lim_{n \to \infty} \frac{n(A)}{n}
+$$
+
+###### Laplace Probability (Pierre-Simon Laplace (1749-1827))
+We call an experiment a **Laplace experiment** if the number of possible simple events is finite and all the outcomes are equally probable. The probability based on that conditions is defined as follows:
+$$
+P(A)=\frac{C(A)}{C(\Omega)}\text{, being $C(X)$ the cardinality of X.}
+$$
+
+###### Subjective Probability Definition
+The subjective definition of probability, as advocated by Bruno de Finetti, diverges from the classical interpretations of probability, venturing into the realm of personal belief and uncertainty. This view rejects the notion that probability is a physical or empirical property of the external world and argued instead that is a measure of an individual's  personal belief or degree of confidence in the occurrence of a particular event, based on the information available at the time.
+
