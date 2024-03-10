@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a4f77f7fae59bdbe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Linear Algebra.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/Probability and Inference.md",
+                "file": "Maths/Linear Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/Probability and Inference.md",
+                "file": "Maths/Linear Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/Probability and Inference.md"
+                "file": "Maths/Linear Algebra.md"
               }
             }
           },
@@ -154,15 +167,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c1a4f966397f05c6",
+  "active": "a4f77f7fae59bdbe",
   "lastOpenFiles": [
+    "Maths/Probability and Inference.md",
+    "Maths/Linear Algebra.md",
+    "Machine Learning/Introduction.md",
+    "Maths/Descriptive Statistics.md",
+    "Machine Learning",
     "README.md",
     "Annotated/Test.md",
-    "Maths/Probability and Inference.md",
     "Annotated/Untit.md",
     "Annotated",
-    "Maths/Descriptive Statistics.md",
-    "Maths/Linear Algebra.md",
     "Algorithms",
     "Coding",
     "Maths",

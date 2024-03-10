@@ -16,7 +16,7 @@ A probability space is a mathematical triplet ($\Omega$, $\mathcal{F}$, $\mathca
 #### Definitions of Probability
 The previous definition of probability is purely formal and does not give an actual meaning to the term probability. Let's do a brief explanation about the two most common definitions. 
 ###### Frequentist Probability Definition (Richard Von Mises)
-There is a close connection between the relative frequency and probability of an event. A random experiment is described by its possible outcomes. Suppose an experiment has $m$ possible outcoumes $A_1, A_2, ..., A_m$  and the experiment is repeated n times. Now we can count how many times each of the possible outcomes has occurred, the **absolute frequency**, which is the number of times the event  $A_i$  has happened:
+There is a close connection between the relative frequency and probability of an event. A random experiment is described by its possible outcomes. Suppose an experiment has $m$ possible outcomes $A_1, A_2, ..., A_m$  and the experiment is repeated n times. Now we can count how many times each of the possible outcomes has occurred, the **absolute frequency**, which is the number of times the event  $A_i$  has happened:
 $$
 n_i = n(A_i)
 $$
@@ -41,4 +41,3 @@ The subjective definition of probability, as advocated by Bruno de Finetti, dive
 
 Based on this, probability is not objective or universal; rather, it is personal and varies from one individual to another, depending on their knowledge, experience, and analysis of the available information. **The probability of an event is, therefore, an expression of a person's willingness to bet on the occurrence of that event.**
 
-De
