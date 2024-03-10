@@ -11,8 +11,9 @@ A probability space is a mathematical triplet ($\Omega$, $\mathcal{F}$, $\mathca
 - The ***probability measure $\mathcal{P}$*** is a set function returning an event's probability. $\mathcal{P} : \mathcal{F} \rightarrow [0,1]$ such that:
 	- The measure of the entire sample space is equal to one: $\mathcal{P}(\Omega)=1$.
 	- $\mathcal{P}$ is countably additive (also called $\sigma$-*additive*). If $\{\mathcal{A}_{i=1}^{\infty}\} \subseteq \mathcal{F}$ is a countable collection of pairwise disjoint sets (if $i \neq j$ then $\mathcal{A}_i \cap \mathcal{A}_j = \emptyset$), then $\mathcal{P}(\bigcup_{i=1} ^\infty \mathcal{A}_i) = \sum_{i=1}^\infty \mathcal{P}(\mathcal{A_i})$.
-	- We could add a third axiom (to mimic the Kolmogorov axioms) such that:  $0 \leq \mathcal{P}(A) \leq 1$    $\forall \mathcal{A} \in \mathcal{F}$, that is implied in the definition of $\mathcal{P}$ as $\mathcal{P} :\mathcal{F} \rightarrow [0,1]$.
+	- We could add a third axiom (to mimic the Kolmogorov axioms) such that:  $0 \leq \mathcal{P}(A) \leq 1$  $\forall \mathcal{A} \in \mathcal{F}$, that is implied in the definition of $\mathcal{P}$ as $\mathcal{P} :\mathcal{F} \rightarrow [0,1]$.
 
 #### Definitions of Probability
-The previous definition is purely formal and does not give an actual meaning to the term probability. Let's do a brief explanation about the two most common definitions. 
+The previous definition of probability is purely formal and does not give an actual meaning to the term probability. Let's do a brief explanation about the two most common definitions. 
 ###### Frequentist Probability Definition (Richard Von Mises)
+There is a close connection between the relative frequency and probability of an event. A random experiment is described by its possible outcomes. Suppose an experiment has $m$ possible outcoumes $A_1, A_2, ..., A_m$  and the experiment is repeated n times. Now we can count how many times each of the possible outcomes has occurred, the **absolute frecuency**  $n_i = n(A_i)$  which is the number of times the event  $A_i$  has happened. The relative frequency of a random event  $A_i$  with $n$ repetitions of the experiment, is calculated as:
