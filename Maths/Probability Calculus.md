@@ -104,3 +104,8 @@ So, the probability of drawing a heart or a king is:
 $$
 P(A_2 \cup A_2) = P(A_1) + P(A_2) - P(A_1 \cap A_2) = \frac{13}{52} + \frac{4}{52} - \frac{1}{52} = \frac{4}{13}
 $$
+**Example 3: (Corollary 4)**:
+Let $A_3$ be the event of drawing the king of hearts ($P(A_1 \cap A_2) = \frac{1}{52}$ ).
+It is trivial that $A_3 \subseteq A_1$, and $P(A_3) \leq P(A_1)$ as expected.
+
+#### 3. Conditional Probability
