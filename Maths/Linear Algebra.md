@@ -1,2 +1,2 @@
-#matemáticas #matemáticas/álgebra
+
 
