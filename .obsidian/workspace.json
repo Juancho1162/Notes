@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3fa7efe9ef92dcf6",
+        "id": "32eeede704935767",
         "type": "tabs",
         "children": [
           {
-            "id": "c1a4f966397f05c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Probability and Inference.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4f77f7fae59bdbe",
+            "id": "b905592eb9fd99b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,19 +155,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4f77f7fae59bdbe",
+  "active": "b905592eb9fd99b3",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Maths/Probability and Inference.md",
+    "README.md",
     "Maths/Linear Algebra.md",
     "Maths/Descriptive Statistics.md",
     "AI/Introduction.md",
-    "Maths/Probability and Inference.md",
-    "Untitled.md",
     "Images/ai_map.webp",
     "Images/zxwju3ha.Machine-learning-vs-deep-learning.webp",
     "Images",
     "Nueva carpeta",
     "ai_map.webp",
-    "README.md",
     "AI",
     "Annotated/Test.md",
     "Annotated/Untit.md",
