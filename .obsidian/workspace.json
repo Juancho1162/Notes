@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Introduction.md",
+                "file": "Maths/Probability and Inference.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Introduction.md",
+                "file": "Maths/Probability and Inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Introduction.md",
+                "file": "Maths/Probability and Inference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Introduction.md"
+                "file": "Maths/Probability and Inference.md"
               }
             }
           },
@@ -170,10 +170,11 @@
   },
   "active": "a4f77f7fae59bdbe",
   "lastOpenFiles": [
-    "Maths/Probability and Inference.md",
     "Maths/Linear Algebra.md",
-    "AI/Introduction.md",
     "Maths/Descriptive Statistics.md",
+    "AI/Introduction.md",
+    "Maths/Probability and Inference.md",
+    "Untitled.md",
     "Images/ai_map.webp",
     "Images/zxwju3ha.Machine-learning-vs-deep-learning.webp",
     "Images",
