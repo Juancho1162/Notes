@@ -29,7 +29,7 @@ P(A) = \lim_{n \to \infty} \frac{n(A)}{n}
 $$
 
 ###### 2.2 Laplace Probability (Pierre-Simon Laplace (1749-1827))
-We call an experiment a **Laplace experiment** if the number of possible simple events is finite and all the outcomes are equally probable. The probability based on that conditions is defined as follows:
+We call an experiment a **Laplace experiment** if the number of possible simple events (*events that are formed by only one element of the sample space*) is finite and all the outcomes are equally probable. The probability based on that conditions is defined as follows:
 $$
 P(A)=\frac{C(A)}{C(\Omega)}\text{, being $C(X)$ the cardinality of X.}
 $$
@@ -66,5 +66,41 @@ P(\emptyset)=P(\bar{\Omega}) = 1-P(\Omega) = 0
 $$
 **Corollary 3**: *Let $A_1$ and $A_2$ be not necessarily disjoint events. The probability of occurrence of $A_1$ and $A_2$ is:*
 $$
-P(A_1 \cup A_2) =
+P(A_1 \cup A_2) = P(A_1) + P(A_2) - P(A_1 \cap A_2)
+$$
+**Corollary 4**: *If $A \subseteq B \text{ then } P(A) \leq P(B)$*
+
+We just describe a good amount of theory, now we will create an example to illustrate some of the concepts.
+
+###### 2.5 Example, Poker Card Deck
+The experiment consists of the following: **We will randomly draw a card** from a poker deck that contains 52 cards:
+
+- $\Omega$ = {*Each individual card*},  $C(\Omega) = 52$.
+- $\sigma-algebra (\mathcal{F})$:   This is the collection of all events we can form from the sample space, including all subsets of $\Omega$. For example, an event might be drawing a heart, which includes all hearts in the deck. $\mathcal{F}$  includes both simple events (like drawing a specific card) and compound events (like drawing a card of a particular suit or value). It also includes the sample space itself $\Omega$ and the empty set $\emptyset$, representing an impossible event. 
+$$
+\mathcal{F} = \{\emptyset,\Omega, A_1, ..., A_n \}
+$$
+- Probability Measure  $\mathcal{P}$: This assigns a probability in each event in $\mathcal{F}$, following the Kolmogorov's axioms.
+
+As we have a finite number of  simple possible events, and all the outcomes are equally probable we are going to use the **Laplace Probability**:
+$$
+P(A) = \frac{C(A)}{C(\Omega)}
+$$
+**Example 1: (Corollary 1)**:
+If $A_1$ is the event of drawing a heart from the deck, $P(A_1)= \frac{13}{52}$. Then, the complementary event, $\bar{A_1}$ would be not drawing a heart, which includes drawing any of the other 39 cards. Using Corollary 1:
+$$
+P(\bar{A_1}) = 1 - P(A_1) = 1-\frac{13}{52} = \frac{3}{4}
+$$
+**Example 2: (Corollary 3)**:
+Let's consider two events:
+- $A_1$: drawing a heart $\rightarrow$ $P(A_1) = \frac{13}{52}$
+- $A_2$: drawing a king $\rightarrow$ $P(A_2) = \frac{4}{52}$
+
+These events are not mutually exclusive, as one of the kings is a heart. The probability of drawing the king of hearts is:
+$$
+P(A_1 \cap A_2) = \frac{1}{52}
+$$
+So, the probability of drawing a heart or a king is:
+$$
+P(A_2 \cup A_2) = P(A_1) + P(A_2) - P(A_1 \cap A_2) = \frac{13}{52} + \frac{4}{52} - \frac{1}{52} = \frac{4}{13}
 $$
