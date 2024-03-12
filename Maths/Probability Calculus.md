@@ -133,4 +133,16 @@ $$
 $$
 P(A\cap B)=P(B|A)P(A)=P(A|B)P(B)
 $$
-**Law of Total Probability**
+**Law of Total Probability**: Assume that $A_1, A_2, ..., A_m$ are events such that $\bigcup_{i = 1}^{m}A_i = \Omega$ with $A_i \cap A_j = \emptyset$ $\forall i \neq j$, and $P(A_i) > 0$ $\forall i$:
+$$
+P(B)=\sum ^{m}_{i=1} P(B|A_i)P(A_i)
+$$
+
+
+
+
+
+## References
+- Heumann C., Schomaker M., **Introduction to Statistics and Data Science**.
+- Heumann C., Kauermann G.,  Küchenhoff H., **Statistical Foundations, Reasoning and Inference For Science and Data Science**.
+- Wikipedia contributors. (2024). **Probability space**. Retrieved from https://en.wikipedia.org/wiki/Probability_space
