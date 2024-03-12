@@ -109,3 +109,28 @@ Let $A_3$ be the event of drawing the king of hearts ($P(A_1 \cap A_2) = \frac{1
 It is trivial that $A_3 \subseteq A_1$, and $P(A_3) \leq P(A_1)$ as expected.
 
 #### 3. Conditional Probability
+Let $P(A) > 0$. Then the conditional probability of event $B$ occurring, given that event $A$ has already occurred, is:
+$$
+P(B|A)= \frac{P(A\cap B)}{P(A)}
+$$
+We can also define:
+$$
+P(A|B)= \frac{P(A\cap B)}{P(B)}
+$$
+Let's say we are doing a COVID test with this relatives frequencies:
+
+|          | Present | Absent | Total(row) |
+| -------- | ------- | ------ | ---------- |
+| Positive | 0.30    | 0.10   | 0.40       |
+| Negative | 0.15    | 0.45   | 0.60       |
+| Total    | 0.45    | 0.55   | 1          |
+
+The event $A$ represents having a positive test ($P(A) = 0.4$), $B$ represents being infected with COVID ($P(A \cap B) = 0.3$), then the probability of, given a positive test, being infected will be:
+$$
+P(B|A)= \frac{P(A\cap B)}{P(A)}=\frac{0.3}{0.4} = 0.75
+$$
+**Multiplication Theorem of Probability**: (*This theorem follows directly from the two first definitions without requiring P(A) >0 and P(B) >0*)
+$$
+P(A\cap B)=P(B|A)P(A)=P(A|B)P(B)
+$$
+**Law of Total Probability**
