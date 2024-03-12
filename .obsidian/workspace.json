@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "2bce7d45ecd39a81",
+        "id": "d53657b624185df9",
         "type": "tabs",
         "children": [
           {
-            "id": "051f6d0ba3ce4430",
+            "id": "90b83c79a7a2c643",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/1. Introduction.md",
+                "file": "Maths/Descriptive Statistics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b13552ce54a54085",
+            "id": "80ca0a8aca741127",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/Probability Calculus.md",
+                "file": "Maths/Descriptive Statistics.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/Probability Calculus.md",
+                "file": "Maths/Descriptive Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/Probability Calculus.md",
+                "file": "Maths/Descriptive Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths/Probability Calculus.md"
+                "file": "Maths/Descriptive Statistics.md"
               }
             }
           },
@@ -167,17 +167,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b13552ce54a54085",
+  "active": "e8286e26ab0a2fbf",
   "lastOpenFiles": [
-    "AI/1. Introduction.md",
+    "Maths/Linear Algebra.md",
     "Maths/Probability Calculus.md",
     "Maths/Descriptive Statistics.md",
-    "Maths/Linear Algebra.md",
+    "Data and Computation/Data Mining/Introduction to Data Mining.md",
+    "Data and Computation/Data Process Infraestructure/Introduction to Data Process Infraestructure.md",
     "AI/Statistical Learning/Bayesian Learning.md",
-    "Data and Computation/Data Cleansing",
+    "AI/1. Introduction.md",
+    "Data and Computation/Data Process Infraestructure",
     "Data and Computation/Introduction.md",
+    "Untitled 1.md",
+    "Data and Computation/Data Cleansing",
     "README.md",
-    "Untitled.md",
     "Data and Computation/Data Mining",
     "Data and Computation/Distributed Systems",
     "Computation",
@@ -186,7 +189,6 @@
     "Data and Computation/Distributed systems",
     "Data and Computation/Databases",
     "Data and Computation",
-    "AI/Reinforcement Learning",
     "Images/ai_map.webp",
     "Images/zxwju3ha.Machine-learning-vs-deep-learning.webp",
     "ai_map.webp",
