@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d53657b624185df9",
+        "id": "6434311ca590c050",
         "type": "tabs",
         "children": [
           {
-            "id": "90b83c79a7a2c643",
+            "id": "7fe0e5e4afc47217",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Descriptive Statistics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80ca0a8aca741127",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Maths/Descriptive Statistics.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/Descriptive Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/Descriptive Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Maths/Descriptive Statistics.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,14 +148,16 @@
   },
   "active": "e8286e26ab0a2fbf",
   "lastOpenFiles": [
-    "Maths/Linear Algebra.md",
-    "Maths/Probability Calculus.md",
-    "Maths/Descriptive Statistics.md",
     "Data and Computation/Data Mining/Introduction to Data Mining.md",
-    "Data and Computation/Data Process Infraestructure/Introduction to Data Process Infraestructure.md",
-    "AI/Statistical Learning/Bayesian Learning.md",
+    "Maths/Probability Calculus.md",
+    "Data and Computation/Data Process Infrastructure/Introduction to Computation and Data Process Infrastructure.md",
+    "Data and Computation/Data Structures and Algorithms",
+    "Data and Computation/Data Structures",
+    "Maths/Descriptive Statistics.md",
     "AI/1. Introduction.md",
-    "Data and Computation/Data Process Infraestructure",
+    "Maths/Linear Algebra.md",
+    "AI/Statistical Learning/Bayesian Learning.md",
+    "Data and Computation/Data Process Infrastructure",
     "Data and Computation/Introduction.md",
     "Untitled 1.md",
     "Data and Computation/Data Cleansing",
@@ -187,8 +168,6 @@
     "Data and Computation/Distributed Data Mining",
     "Data and Computation/Distributed systems",
     "Data and Computation/Distributed systems",
-    "Data and Computation/Databases",
-    "Data and Computation",
     "Images/ai_map.webp",
     "Images/zxwju3ha.Machine-learning-vs-deep-learning.webp",
     "ai_map.webp",
