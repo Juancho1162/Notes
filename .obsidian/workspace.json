@@ -11,8 +11,12 @@
             "id": "7fe0e5e4afc47217",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "AI/1. Introduction.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AI/1. Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AI/1. Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AI/1. Introduction.md"
+              }
             }
           },
           {
@@ -146,17 +154,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8286e26ab0a2fbf",
+  "active": "7fe0e5e4afc47217",
   "lastOpenFiles": [
+    "AI/Statistical Learning/Bayesian Learning.md",
     "Data and Computation/Data Mining/Introduction to Data Mining.md",
-    "Maths/Probability Calculus.md",
     "Data and Computation/Data Process Infrastructure/Introduction to Computation and Data Process Infrastructure.md",
+    "Maths/Probability Calculus.md",
     "Data and Computation/Data Structures and Algorithms",
     "Data and Computation/Data Structures",
     "Maths/Descriptive Statistics.md",
     "AI/1. Introduction.md",
     "Maths/Linear Algebra.md",
-    "AI/Statistical Learning/Bayesian Learning.md",
     "Data and Computation/Data Process Infrastructure",
     "Data and Computation/Introduction.md",
     "Untitled 1.md",
