@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Numeric ML/Kernels in ML.md",
+                "file": "AI/1. Introduction to AI.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 234.5
+    "width": 234.5,
+    "collapsed": true
   },
   "right": {
     "id": "71125f769ab46af9",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Numeric ML/Kernels in ML.md",
+                "file": "AI/1. Introduction to AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Numeric ML/Kernels in ML.md",
+                "file": "AI/1. Introduction to AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Numeric ML/Kernels in ML.md"
+                "file": "AI/1. Introduction to AI.md"
               }
             }
           },
@@ -154,13 +155,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af3df6ad2283a188",
+  "active": "e8286e26ab0a2fbf",
   "lastOpenFiles": [
+    "AI/Numeric ML/Kernels in ML.md",
+    "AI/Numeric ML/Bayesian Learning.md",
+    "Images/l_separability_2.png",
+    "Images/l_separability_2.png.crdownload",
     "Images/l_separability.png",
     "Images/l_separability.png.crdownload",
     "Maths/Probability Calculus.md",
-    "AI/Numeric ML/Kernels in ML.md",
-    "AI/Numeric ML/Bayesian Learning.md",
     "AI/1. Introduction to AI.md",
     "Data and Computation/Data Structures and Algorithms/Introduction to Data Structures and Algorithms.md",
     "Maths/Descriptive Statistics.md",
@@ -178,7 +181,6 @@
     "Data and Computation/Data Cleansing",
     "Data and Computation/Data Mining",
     "Data and Computation/Distributed Systems",
-    "Computation",
     "Images/ai_map.webp",
     "Images/zxwju3ha.Machine-learning-vs-deep-learning.webp",
     "ai_map.webp",

@@ -63,18 +63,24 @@ def brute_force_separability(group1, group2):
     weight_range = np.arange(-1, 1.1, 0.1)
     k_range = np.arange(-10, 10.1, 0.1)
     
-    for w1 in weight_range:
-        for w2 in weight_range:
-            for k in k_range:
-                # Check the conditions for all points in group1 and group2
-                condition1 = all(np.dot([w1, w2], point) > k for point in group1)
-                condition2 = all(np.dot([w1, w2], point) < k for point in group2)
-                # If both conditions are satisfied, we've found a separating line
-                if condition1 and condition2:
-                    return True, w1, w2, k
+    for w1 in weight_range: # BAD INDENTATION BECAUSE OF VISUALIZATION!
+	  for w2 in weight_range:
+	    for k in k_range:
+            # Check the conditions for all points in group1 and group2
+            condition1 = all(np.dot([w1, w2], point) > k for point in group1)
+            condition2 = all(np.dot([w1, w2], point) < k for point in group2)
+            # If both conditions are satisfied, we've found a separating line
+            if condition1 and condition2:
+                return True, w1, w2, k
+            else:
+                condition3 = all(np.dot([w1, w2], point) < k for point in group1)
+                condition4 = all(np.dot([w1, w2], point) > k for point in group2)
+                if condition3 and condition4:
+	                return True, w1, w2, k
+                    
                     
     # If we finish the loop without returning, no separating line was found
-    return False, None, None, None
+	return False, None, None, None
 
 # Example groups of points
 group1 = np.array([[1, 2], [2, 3], [3, 4]])
@@ -87,8 +93,7 @@ if separable:
     print(f"Groups are linearly separable with w1={w1}, w2={w2}, and k={k}.")
     plot_hyperplane(group1, group2, w1, w2, k)
 else:
-    print("No hyperplane found, thus no corrected plot.")
-```
+    print("No hyperplane found, thus no corrected plot.")```
 
 Also this function to plot it:
 ```python
@@ -125,6 +130,37 @@ def plot_hyperplane(group1, group2, w1, w2, k):
 ```
 
 ![[l_separability.png]]
+
+##### **Easier example**
+In order to gain more intuition of the mathematical operations, let's consider 2 vectors in 2D:
+$$
+\begin{gather}
+\vec{v_1} = 1e_1+2e_2\\
+\vec{v_2}= 5e_1+4e_2
+\end{gather}
+$$
+If we want to check if that 2 points or vectors are linearly separable, we have to find ($\vec{w}, k$) or such that:
+$$
+\begin{gather}
+\vec{w} = w_1e_1+w_2e_2\\
+\vec{w}\cdot \vec{v_1}= 1w_1+2w_2 < k\\
+\vec{w}\cdot \vec{v_2}= 5w_1+4w_2 > k
+\end{gather}
+$$
+It is trivial that ($w_1 = 1, w_2 = 1, k =5$) works. That conforms an hyperplane:
+$$
+\begin{gather}
+e_1+e_2=5\\
+\text{Using "normal" notation, }x+y = 5\\
+y = 5-x
+\end{gather}
+$$
+And we can see that these 2 points are linearly separable:
+![[l_separability_2.png]]
+
+
+
+
 
 #### References
 - Wikipedia contributors. (2024). **Linear separability** Retrieved from https://en.wikipedia.org/wiki/Linear_separability
