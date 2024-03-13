@@ -1,3 +1,4 @@
+#maths 
 ####  1. The Probability Space
 A probability space is a mathematical triplet ($\Omega$, $\mathcal{F}$, $\mathcal{P}$) that represent a **model** in which $\Omega$, $\mathcal{F}$, $\mathcal{P}$ need to be defined, fulfilling certain conditions. Formally, a **probability space** is a **measure space** such that the measure of the whole space is equal to one.
 
