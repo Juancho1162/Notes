@@ -124,6 +124,7 @@ def plot_hyperplane(group1, group2, w1, w2, k):
     plt.show()
 ```
 
+![[l_separability.png]]
 
 #### References
 - Wikipedia contributors. (2024). **Linear separability** Retrieved from https://en.wikipedia.org/wiki/Linear_separability
