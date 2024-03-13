@@ -142,7 +142,6 @@ $$
 
 
 
-
 ## References
 - Heumann C., Schomaker M., **Introduction to Statistics and Data Science**.
 - Heumann C., Kauermann G.,  Küchenhoff H., **Statistical Foundations, Reasoning and Inference For Science and Data Science**.
