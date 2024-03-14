@@ -157,12 +157,18 @@ y = 5-x
 $$
 And we can see that these 2 points are linearly separable:
 ![[l_separability_2.png]]
+When we don't have this linear separability we can choose 2 options:
+- Use/create a model that is able to separate non-linear data. This is the example of neural networks.
+- Transform the data in order to make it linearly separable. In this approach we can use **the kernel trick**.
+#### The kernel trick
 
 
 
 
 
 #### References
-- Wikipedia contributors. (2024). **Linear separability** Retrieved from https://en.wikipedia.org/wiki/Linear_separability
+- Author1, Author2, Author3. **Python Machine Learning**. 
+- Wikipedia contributors. (2024). **Linear separability**. Retrieved from https://en.wikipedia.org/wiki/Linear_separability
+-  Wikipedia contributors. (2024). **Kernel method**. Retrieved from https://en.wikipedia.org/wiki/Kernel_method.
 - Private notes corresponding to my university subject called "Aprendizaje Automático II".
 
