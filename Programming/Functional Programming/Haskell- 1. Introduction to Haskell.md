@@ -92,15 +92,29 @@ qsort :: Ord a => [a] -> [a]
 So is a function that maps between lists of ordered values. Haskell support many different types of ordered values, including numbers, characters 'a', strings of characters such as 'abcde'. Hence, for example, the function qsort could also be used to sort a list of characters, or a list of strings.
 
 ##### **Sequencing actions**
+Our third and final example further emphasises the level of precision and generality that can be achieved in Haskell. Consider a function seqn that takes a list of input/output actions, such as reading or writing a single character, performs each of these actions in sequence, and returns a list of resulting values:
+```
+seqn []         = return []
+seqn (act:acts) = do x <- act
+                  xs <- seqn acts
+			      return (x:xs)
+```
 
+These two equations state that if the list of actions is empty we return the empty list of results, otherwise we perform the first action in the list, then perform the remaining actions, and finally return the list of results that were produced. For example ($seqn$ $[\text{getChar}, \text{ getChar}, \text{ getChar}]$) reads three characters from the keyboard using the action getChar that reads a single character, and returns a list containing the three characters.
 
+The interesting aspect of the function seqn is its type. One possible type that can be inferred from the above definition is the following:
+``` Haskell
+seqn :: [IO a] -> IO [a]
+```
 
+This type states that seqn maps a list of $IO$(input/output) actions that produce results of some type **a** to a single $IO$ action that produces a list of such results. More importantly, however, the type also makes explicit that the function seqn involves the side effect of performing input/outputs actions. Using types in this manner to keep a clear distinction between functions that are pure and those that involve side effects is a central aspect of Haskell, and bring important benefits in terms of both programming and reasoning.
 
+In facto the function seqn is more general than it may initially appear. In particular, the manner in which the function is defined is not specific to the case of input/output actions, but is equally valid for other forms of effects too. For example, it also can be used to sequence actions that may change stored values, fail to succeed, write to a log file, and so on. This flexibility is captured in Haskell by means of the following more general type:
+``` Haskell
+seqn :: Monad m => [m a] -> m [a]
+```
 
-
-
-
-
+That is, for any monadic type m, of which $IO$ is just one example, seqn maps a list of actions of type **m a** into a single action that returns a list of values of type **a**. Being able to define generic functions such as seqn that can be used with different kinds of effects is a key feature of Haskell.
 
 ### References
 - Graham Hutton, **Programming in Haskell** (2018).
