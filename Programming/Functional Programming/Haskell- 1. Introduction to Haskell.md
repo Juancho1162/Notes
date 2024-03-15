@@ -69,6 +69,29 @@ qsort [] ++ [x] ++ qsort []
 [x]
 ```
 
+Let's try with a simple list $[3,5,1,4,2]$:
+```
+qsort [3,5,1,4,2]
+= {applying qsort}
+qsort [1,2] ++ [3] ++ qsort [5,4]
+= {applying qsort}
+(qsort [] ++ [1] ++ qsort [2]) ++ [3] ++ (qsort [4] ++ [5] ++ qsort [])
+= {applying qsort}
+([] ++ [1] ++ [2]) ++ [3] ++ ([4] ++ [5] ++ [])
+= {appplying ++}
+[1,2] ++ [3] ++ [4,5]
+= {applying ++}
+[1,2,3,4,5]
+```
+
+The type of qsort is:
+```Haskell
+qsort :: Ord a => [a] -> [a]
+```
+
+So is a function that maps between lists of ordered values. Haskell support many different types of ordered values, including numbers, characters 'a', strings of characters such as 'abcde'. Hence, for example, the function qsort could also be used to sort a list of characters, or a list of strings.
+
+##### **Sequencing actions**
 
 
 
