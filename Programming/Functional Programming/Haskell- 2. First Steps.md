@@ -26,6 +26,7 @@ reverse [1,2,3,4,5] --output: [5,4,3,2,1]
 | $f(x) g(y)$ | f x * g y |
 | $f(x+b)$    | f (x+b)   |
 
+
 #### 2.3 Using ghci (script.hs + :reload (2 terminals))
 ```Haskell
 -- script_1.hs
@@ -91,3 +92,38 @@ Or even:
 ```Haskell
 a = b + c where {b = 1; c = 2}; d = a * 2
 ```
+
+##### **Do not use Tabs**
+Configure the editor to replace tabs for spaces.
+
+##### **Comments**
+```
+-- Bla bla bla
+{-
+Bla bla bla
+-}
+```
+
+#### 2.4 Exercises
+
+**EXERCISE 3**: Fix this 3 errors:
+```Haskell
+N = a `div` length xs 
+	where
+		a = 10
+	   xs = [1,2,3,4,5]
+```
+**Solution**
+```Haskell
+n = a ´div´ length xs -- functions need to start by lowecase, Datatypes Uppercase
+-- you need to use ´ ´ not ` `, to operate with div
+	where
+		a = 10
+		xs = [1,2,3,4,5] -- you need to indent at the same level
+```
+
+**EXERCISE 4**: The library function last selects the last element of a non-empty list. Show how the function last could be defined in terms of the other library functions introduced in this chapter:
+```
+ last xs = head (reverse xs)
+```
+
