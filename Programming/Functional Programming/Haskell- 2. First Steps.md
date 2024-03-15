@@ -140,3 +140,6 @@ my_init xs = reverse (tail (reverse xs))
 ```Haskell
 my_init2 xs = take (length xs - 2) xs
 ```
+
+### References
+- Graham Hutton, **Programming in Haskell** (2018).

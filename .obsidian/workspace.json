@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "41abf5a899bbf26d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Functional Programming/Haskell- 2. First Steps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,11 +167,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f2296562d6b1170",
+  "active": "41abf5a899bbf26d",
   "lastOpenFiles": [
-    "Maths/Probability Calculus.md",
-    "Programming/Functional Programming/Haskell- 1. Introduction to Haskell.md",
+    "Programming/Functional Programming/Haskell- 3. Types and classes.md",
     "Programming/Functional Programming/Haskell- 2. First Steps.md",
+    "Programming/Functional Programming/Haskell- 1. Introduction to Haskell.md",
+    "Maths/Probability Calculus.md",
     "Programming/Functional Programming/Introduction to Functional Programming.md",
     "AI/Numeric ML/Kernels in ML.md",
     "AI/Numeric ML/Bayesian Learning.md",
