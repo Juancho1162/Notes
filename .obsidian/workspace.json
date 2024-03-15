@@ -13,50 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Numeric ML/Kernels in ML.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a2f1c804d764442",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Functional Programming/Introduction to Functional Programming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f365aa73a5ea86cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Functional Programming/Haskell- 1. Introduction to Haskell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "784f1e5e936109d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Programming/Functional Programming/Haskell- 2. First Steps.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,16 +154,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "784f1e5e936109d2",
+  "active": "3f2296562d6b1170",
   "lastOpenFiles": [
+    "Programming/Functional Programming/Haskell- 1. Introduction to Haskell.md",
+    "Programming/Functional Programming/Introduction to Functional Programming.md",
+    "Programming/Functional Programming/Haskell- 2. First Steps.md",
     "AI/Numeric ML/Kernels in ML.md",
     "AI/Numeric ML/Bayesian Learning.md",
     "Data and Computation/Data Structures and Algorithms/Introduction to Data Structures and Algorithms.md",
     "Data and Computation/Data Mining/Introduction to Data Mining.md",
     "Data and Computation/Data Process Infrastructure/Introduction to Computation and Data Process Infrastructure.md",
-    "Programming/Functional Programming/Haskell- 2. First Steps.md",
-    "Programming/Functional Programming/Haskell- 1. Introduction to Haskell.md",
-    "Programming/Functional Programming/Introduction to Functional Programming.md",
     "README.md",
     "Maths/Probability Calculus.md",
     "Maths/Linear Algebra.md",
