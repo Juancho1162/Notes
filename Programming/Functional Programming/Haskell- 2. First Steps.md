@@ -1,6 +1,8 @@
 #### 2.1 Prebuild Functions
 ```Haskell
 head [1,2,3,4,5] -- output: 1
+last [1,2,3,4,5] -- output: 5
+init [1,2,3,4,5] -- output: [1,2,3,4]
 tail [1,2,3,4,5] -- output: [2,3,4,5]
 [1,2,3,4,5] !! 2 -- output: 3 (nth element, in this case 2th element(0,1,...))
 [1,2,3,4,5] !! 4 -- output: 5
@@ -122,8 +124,19 @@ n = a ´div´ length xs -- functions need to start by lowecase, Datatypes Upperc
 		xs = [1,2,3,4,5] -- you need to indent at the same level
 ```
 
-**EXERCISE 4**: The library function last selects the last element of a non-empty list. Show how the function last could be defined in terms of the other library functions introduced in this chapter:
-```
- last xs = head (reverse xs)
+**EXERCISE 4**: The library function last selects the last element of a non-empty list. Show how the function last could be defined in terms of the other library functions introduced in this chapter: 
+**Solution**:
+```Haskell
+ my_last xs = head (reverse xs)
 ```
 
+**EXERCISE 5**: The library function init removes the last element from a non empty list; for example, 
+$init [1,2,3,4,5] = [1,2,3,4]$. Show how init could similarly be defined in two different ways:
+**Solution 1** :
+``` Haskell
+my_init xs = reverse (tail (reverse xs))
+```
+**Solution 2**:
+```Haskell
+my_init2 xs = take (length xs - 2) xs
+```
