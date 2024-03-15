@@ -166,6 +166,7 @@ When we don't have this linear separability we can choose 2 options:
 
 
 
+
 #### References
 - Author1, Author2, Author3. **Python Machine Learning**. 
 - Wikipedia contributors. (2024). **Linear separability**. Retrieved from https://en.wikipedia.org/wiki/Linear_separability
