@@ -58,9 +58,10 @@ If you want to check the type of any value or expression you can do it by preced
 ```
 
 #### 3.2 Basic types
-- Bool - logical values. Bool = {True, False}
-- Char - single characters. It contains all single characters in the Unicode system. ``´a´`` , ``´b´`` , also control characters as ``´\n´``  (move to a new line) and ``´\t´`` (move to the next tab stop).
-- 
+- **Bool** - logical values. Bool = {True, False}
+- **Char** - single characters. It contains all single characters in the Unicode system. ``´a´`` , ``´b´`` , also control characters as ``´\n´``  (move to a new line) and ``´\t´`` (move to the next tab stop).
+- **String** - strings of characters. This contains all sequences of characters such as ``"abc"``.
+- **Int** - fixed-precision integers. Such as ``-100, 0, 999``, with a fixed amount of memory being used for their storage.
 
 
 
