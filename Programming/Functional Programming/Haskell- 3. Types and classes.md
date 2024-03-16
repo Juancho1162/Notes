@@ -105,6 +105,46 @@ We can also have:
 ```
 
 #### 3.5 Function types
+```Haskell
+not :: Bool -> Bool
+even :: Int -> Bool
 
-### References
+add :: (Int, Int) -> Int
+add (x,y) = x+y
+
+zeroto :: Int -> [Int]
+zeroto n = [0..n]
+```
+
+In the last two examples we have followed the **Haskell convention of preceding function definitions by their types**, which serves as useful documentation. Any such types provided manually by the user are checked for consistency with the types calculated automatically using type inference. Note that there is no restriction that functions must be total on their argument type, in the sense that there may be some arguments for which the result is not defined. For example, the result of library function head that selects the first element of a list is undefined if the list is empty.
+
+##### **Project Euler exercise 1**
+**Find the sum of all the multiples of 3 or 5 below 1000** 
+```Haskell
+factors :: Int -> [Int]
+factors n = [x | x <- [1..n], x `mod` 5 == 0 || x `mod` 3 == 0]
+```
+
+Other way to do it:
+```Haskell
+divisibleBy :: Integral a => a -> a -> Bool -- We use Integral a =>, because integral is not a type, is a type class.
+divisibleBy x y = (x `mod` y) == 0
+
+factors :: Int -> [Int]
+factors n = [x | x <- [1..n], x `divisibleBy` 3 || x `divisibleBy` 5]
+```
+
+And as we know factors use Int, we can do:
+```Haskell
+divisibleBy :: Int -> Int -> Bool 
+divisibleBy x y = (x `mod` y) == 0
+
+factors :: Int -> [Int]
+factors n = [x | x <- [1..n], x `divisibleBy` 3 || x `divisibleBy` 5]
+```
+
+#### 3.6 Curried functions
+
+
+### References 
 - Graham Hutton, **Programming in Haskell** (2018).
