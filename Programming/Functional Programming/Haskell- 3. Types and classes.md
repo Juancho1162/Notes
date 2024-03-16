@@ -64,6 +64,26 @@ If you want to check the type of any value or expression you can do it by preced
 - **Int** - fixed-precision integers. $[-2^{63}, 2^{63} -1]$ . Such as ``-100, 0, 999``, with a fixed amount of memory being used for their storage. 
 - **Integer** - arbitrary-precision integers. The limit is the memory. 
 - **Float** - single-precision floating-point numbers. This type contains numbers with a decimal point, ``3.1415827``.
+- **Double** - double-precision floating-point numbers. It has twice as much memory as Float in order to increase their precision.
+
+#### 3.3 List types
+We write ``[T]`` for the type of all lists whose elements have type T. For example:
+```Haskell
+[False, True, False] :: [Bool]
+['a', 'b', 'c'] :: [Char]
+["One", "Two", "Three"] :: [String]
+```
+
+```
+[] -- This is called the empty-list
+[[]] -- This is called a singleton list, this contains the empty list as its only element.
+['a'] -- This is a singleton list, because it has a lenght of one.
+```
+
+We can also have:
+```Haskell
+[['a','b'],['c','d','e']] :: [[Char]]
+```
 
 
 
