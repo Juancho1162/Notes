@@ -61,10 +61,9 @@ If you want to check the type of any value or expression you can do it by preced
 - **Bool** - logical values. Bool = {True, False}
 - **Char** - single characters. It contains all single characters in the Unicode system. ``´a´`` , ``´b´`` , also control characters as ``´\n´``  (move to a new line) and ``´\t´`` (move to the next tab stop).
 - **String** - strings of characters. This contains all sequences of characters such as ``"abc"``.
-- **Int** - fixed-precision integers. Such as ``-100, 0, 999``, with a fixed amount of memory being used for their storage. The range of values is: $[-2^{63}, 2^{63} -1]$ 
-
-
-
+- **Int** - fixed-precision integers. $[-2^{63}, 2^{63} -1]$ . Such as ``-100, 0, 999``, with a fixed amount of memory being used for their storage. 
+- **Integer** - arbitrary-precision integers. The limit is the memory. 
+- **Float** - single-precision floating-point numbers. This type contains numbers with a decimal point, ``3.1415827``.
 
 
 
