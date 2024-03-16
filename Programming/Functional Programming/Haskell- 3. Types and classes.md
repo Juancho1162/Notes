@@ -40,7 +40,7 @@ not (not False) :: Bool
 ```
  
 
-In Haskell, every expression must have a type, which is calculated prior to evaluating the expression by a process called type inferece. ``If f :: A -> B && e :: A then f e :: B`` 
+In Haskell, every expression must have a type, which is calculated prior to evaluating the expression by a process called type inference. ``If f :: A -> B && e :: A then f e :: B`` 
 ```Haskell
 f :: A -> B
 e :: A
@@ -49,9 +49,18 @@ f e :: B
 
 Because type inference precedes evaluation, Haskell programs are type safe, in the sense that type erros can never occur during evaluation. In practice, type inference detects a very large class of programs errors, and is one of the most useful features of Haskell.
 
-The downside of type safety is that some expressions that evaluate successfully will be rejected on type grounds. For example, ``if True then 1 else False`` 
+The downside of type safety is that some expressions that evaluate successfully will be rejected on type grounds. For example, ``if True then 1 else False``  evaluates to the number 1, but contains a type error, because the types of all expressions in an `if-then-else` construct must match. 
 
+If you want to check the type of any value or expression you can do it by preceding the expression by the command ``:type`` in ``GHCi`` .
+```
+:type not --output: not :: Bool -> Bool
+:type False -- output: False :: Bool
+```
 
+#### 3.2 Basic types
+- Bool - logical values. Bool = {True, False}
+- Char - single characters. It contains all single characters in the Unicode system. ``´a´`` , ``´b´`` , also control characters as ``´\n´``  (move to a new line) and ``´\t´`` (move to the next tab stop).
+- 
 
 
 
