@@ -67,7 +67,7 @@ If you want to check the type of any value or expression you can do it by preced
 - **Double** - double-precision floating-point numbers. It has twice as much memory as Float in order to increase their precision.
 
 #### 3.3 List types
-We write ``[T]`` for the type of all lists whose elements have type T. For example:
+**A list is a sequence of elements of the same type**. We write ``[T]`` for the type of all lists whose elements have type T. For example:
 ```Haskell
 [False, True, False] :: [Bool]
 ['a', 'b', 'c'] :: [Char]
@@ -85,11 +85,15 @@ We can also have:
 [['a','b'],['c','d','e']] :: [[Char]]
 ```
 
+**Finally, there is no restriction that a list must have a finite length.**  In particular due to the use of lazy evaluation in Haskell, lists with an infinite length are both natural and practical.
 
-
-
-
-
+#### 3.4 Tuple types
+A tuple is a **finite sequence of components of possibly different types**. For example:
+```Haskell
+(False, True) :: (Bool,Bool)
+(False, 'a', True) :: (Bool, Char, Bool)
+("Yes", True, 3) :: (String, Bool, Int)
+```
 
 
 ### References
