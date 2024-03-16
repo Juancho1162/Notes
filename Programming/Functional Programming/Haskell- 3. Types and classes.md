@@ -95,6 +95,16 @@ A tuple is a **finite sequence of components of possibly different types**. For 
 ("Yes", True, 3) :: (String, Bool, Int)
 ```
 
+The number of componentes in a tuple is called its *arity*. The tuple () of arity zero is called the empty tuple, tuple of arity two are called pairs, and so on. Tuples of arity one, such as ``(False)`` , are not permitted because they would conflict with the use of parentheses to make the evaluation order explicit, such as in ``(1+2)*3``.
+
+We can also have:
+```Haskell
+('a', (False, 'b')) :: (Char,(Bool,Char))
+(['a','b'],[False, True]) :: ([Char],[Bool])
+[('a', False),('b', True)] :: [(Char, Bool)]
+```
+
+#### 3.5 Function types
 
 ### References
 - Graham Hutton, **Programming in Haskell** (2018).
