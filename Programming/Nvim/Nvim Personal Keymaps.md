@@ -10,4 +10,7 @@
 - Code actions: ``Space + c + a`` 
 ##### **Toggleterm**
 - Open terminal ``Ctrl + t``
-- 
+- kill terminal (in terminal) ``exit`` 
+##### **Gitsigns**
+- Git preview: ``Space + g + p
+- Check line gitblame: ``Space + g + t
