@@ -14,3 +14,12 @@
 ##### **Gitsigns**
 - Git preview: ``Space + g + p
 - Check line gitblame: ``Space + g + t
+
+##### **None-ls
+- Reformat code: ``Space + g f`` 
+
+##### **Debugging
+- **Toggle Breakpoint:** ``Space + d + t``
+- Continue: ``Space + d + c`` 
+- Terminate: ``Space + d + x``
+- Step Over: ``Space + d + o``
