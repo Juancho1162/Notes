@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Nvim/Nvim Personal Keymaps.md",
+                "file": "Programming/Functional Programming/Haskell- 3. Types and classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Nvim/Nvim Personal Keymaps.md",
+                "file": "Programming/Functional Programming/Haskell- 3. Types and classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Nvim/Nvim Personal Keymaps.md",
+                "file": "Programming/Functional Programming/Haskell- 3. Types and classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Nvim/Nvim Personal Keymaps.md"
+                "file": "Programming/Functional Programming/Haskell- 3. Types and classes.md"
               }
             }
           },
@@ -169,12 +169,12 @@
   },
   "active": "a2ed089d9bde13f9",
   "lastOpenFiles": [
-    "Programming/Nvim/Nvim Personal Keymaps.md",
-    "Programming/Functional Programming/Haskell- 3. Types and classes.md",
-    "Programming/Nvim",
-    "Programming/Functional Programming/Haskell- 2. First Steps.md",
     "Programming/Functional Programming/Haskell- 4. Defining functions.md",
+    "Programming/Functional Programming/Haskell- 3. Types and classes.md",
     "Programming/Functional Programming/Haskell- 1. Introduction to Haskell.md",
+    "Programming/Functional Programming/Haskell- 2. First Steps.md",
+    "Programming/Nvim/Nvim Personal Keymaps.md",
+    "Programming/Nvim",
     "Maths/Probability Calculus.md",
     "AI/1. Introduction to AI.md",
     "Programming/Functional Programming/Introduction to Functional Programming.md",
