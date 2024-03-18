@@ -97,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Functional Programming/Haskell- 3. Types and classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Functional Programming/Haskell- 3. Types and classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programming/Functional Programming/Haskell- 3. Types and classes.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,10 +164,11 @@
   },
   "active": "a2ed089d9bde13f9",
   "lastOpenFiles": [
-    "Maths/Probability Calculus.md",
-    "Maths/Probability Calculus.md~",
-    "Maths/4913",
     "AI/Numeric ML/Kernels in ML.md",
+    "Maths/Probability Calculus.md~",
+    "AI/Numeric ML/Perceptron.md",
+    "Maths/Probability Calculus.md",
+    "Maths/4913",
     "Programming/Functional Programming/Haskell- 3. Types and classes.md",
     "Programming/Functional Programming/Haskell- 4. Defining functions.md",
     "Programming/Functional Programming/Haskell- 1. Introduction to Haskell.md",
@@ -182,7 +179,6 @@
     "Programming/Functional Programming/Introduction to Functional Programming.md",
     "Maths/Linear Algebra.md",
     "Maths/Descriptive Statistics.md",
-    "AI/Numeric ML/Perceptron.md",
     "AI/Numeric ML/Bayesian Learning.md",
     "Data and Computation/Data Structures and Algorithms/Introduction to Data Structures and Algorithms.md",
     "Data and Computation/Data Mining/Introduction to Data Mining.md",

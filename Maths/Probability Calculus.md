@@ -139,7 +139,7 @@ $$
 P(B)=\sum ^{m}_{i=1} P(B|A_i)P(A_i)
 $$
 
-
+For example
 
 ## References
 - Heumann C., Schomaker M., **Introduction to Statistics and Data Science**.
