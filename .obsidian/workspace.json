@@ -23,10 +23,11 @@
             "id": "a2ed089d9bde13f9",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "Maths/Probability Calculus.md",
-                "staged": false
+                "file": "Programming/Nvim/Nvim Personal Keymaps.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -97,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programming/Nvim/Nvim Personal Keymaps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programming/Nvim/Nvim Personal Keymaps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programming/Nvim/Nvim Personal Keymaps.md"
+              }
             }
           },
           {
@@ -165,6 +170,7 @@
   "active": "a2ed089d9bde13f9",
   "lastOpenFiles": [
     "AI/Numeric ML/Kernels in ML.md",
+    "AI/Numeric ML/Bayesian Learning.md",
     "Maths/Probability Calculus.md~",
     "AI/Numeric ML/Perceptron.md",
     "Maths/Probability Calculus.md",
@@ -179,7 +185,6 @@
     "Programming/Functional Programming/Introduction to Functional Programming.md",
     "Maths/Linear Algebra.md",
     "Maths/Descriptive Statistics.md",
-    "AI/Numeric ML/Bayesian Learning.md",
     "Data and Computation/Data Structures and Algorithms/Introduction to Data Structures and Algorithms.md",
     "Data and Computation/Data Mining/Introduction to Data Mining.md",
     "Data and Computation/Data Process Infrastructure/Introduction to Computation and Data Process Infrastructure.md",

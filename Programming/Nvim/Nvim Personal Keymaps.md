@@ -14,7 +14,7 @@
 ##### **Gitsigns**
 - Git preview: ``Space + g + p
 - Check line gitblame: ``Space + g + t
-
+- Lazygit (in terminal not a plugin): ``lazygit`` 
 ##### **None-ls
 - Reformat code: ``Space + g f`` 
 
