@@ -24,10 +24,12 @@
 - Continue: ``Space + d + c`` 
 - Terminate: ``Space + d + x``
 - Step Over: ``Space + d + o``
-##### **Harpoon**
+##### **Harpoon** (NOT IN USE)
 - Toggle menu:  ``Space + e`` 
 - append file:  ``Space + a``
 - file (1):  ``Space + 1``
 - file (n):  ``Space + n`` (until 4)
 - next file:  ``Space + n`` 
 - previous file:  ``Space + p`` 
+
+##### **Quarto**

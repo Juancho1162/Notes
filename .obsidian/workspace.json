@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Nvim/Nvim Personal Keymaps.md",
+                "file": "AI/Numeric ML/From Linear Separability to Kernel Trick.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Nvim/Nvim Personal Keymaps.md",
+                "file": "AI/Numeric ML/From Linear Separability to Kernel Trick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Nvim/Nvim Personal Keymaps.md",
+                "file": "AI/Numeric ML/From Linear Separability to Kernel Trick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Nvim/Nvim Personal Keymaps.md"
+                "file": "AI/Numeric ML/From Linear Separability to Kernel Trick.md"
               }
             }
           },
@@ -169,17 +169,19 @@
   },
   "active": "a2ed089d9bde13f9",
   "lastOpenFiles": [
-    "AI/Numeric ML/Kernels in ML.md",
-    "AI/Numeric ML/Bayesian Learning.md",
-    "Maths/Probability Calculus.md~",
     "AI/Numeric ML/Perceptron.md",
+    "Programming/Nvim/Nvim Personal Keymaps.md",
+    "Programming/Numpy/Einsum.md",
+    "AI/Numeric ML/From Linear Separability to Kernel Trick.md",
+    "AI/Numeric ML/Bayesian Learning.md",
+    "Programming/Numpy",
+    "Maths/Probability Calculus.md~",
     "Maths/Probability Calculus.md",
     "Maths/4913",
     "Programming/Functional Programming/Haskell- 3. Types and classes.md",
     "Programming/Functional Programming/Haskell- 4. Defining functions.md",
     "Programming/Functional Programming/Haskell- 1. Introduction to Haskell.md",
     "Programming/Functional Programming/Haskell- 2. First Steps.md",
-    "Programming/Nvim/Nvim Personal Keymaps.md",
     "Programming/Nvim",
     "AI/1. Introduction to AI.md",
     "Programming/Functional Programming/Introduction to Functional Programming.md",
@@ -197,7 +199,6 @@
     "Images/l_separability.png.crdownload",
     "Data and Computation/Theory of Computation",
     "AI/Numeric ML",
-    "Data and Computation/Data Structures and Algorithms",
     "Data and Computation/Introduction.md",
     "Untitled 1.md",
     "Images/ai_map.webp",

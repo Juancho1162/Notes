@@ -2,9 +2,11 @@
 
 ##### **Objectives**
 - Understand non-linear separability.
+- Understand methods to find hyperplanes: Perceptron, Adaline, SVM.
 - Understand the fundamentals of kernel trick from a computational point of view.
 - Know the math behind the kernel trick.
 - Learn how to define the kernels in order to be able to transform datasets with non-linear separability.
+
 
 #### Linear Separability
 Let $X_0$ and $X_1$ be two sets of points in an n-dimensional Euclidean space. Then $X_0$ and $X_1$ are linearly separable if there exist ($n+1$) real numbers ($w_1, w_2, ..., w_n, k$) such that:
@@ -53,7 +55,7 @@ $$
 \forall \hat{v_j} \in P_2; \sum_{i=1}^{2}w_ip^{2}_{j,i} < k
 \end{gather}
 $$
-This system of equations will have $m+b$ inequalities (the total number of points). We could solve them and find if that k exists.
+This system of equations will have $m+b$ inequalities (the total number of points). We could solve them and find if some k exists.
 
  With the help of GPT4 I created this code to brute force a simple case.
  
@@ -93,7 +95,8 @@ if separable:
     print(f"Groups are linearly separable with w1={w1}, w2={w2}, and k={k}.")
     plot_hyperplane(group1, group2, w1, w2, k)
 else:
-    print("No hyperplane found, thus no corrected plot.")```
+    print("No hyperplane found, thus no corrected plot.")
+    ```
 
 Also this function to plot it:
 ```python
