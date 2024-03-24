@@ -20,12 +20,25 @@ tags: []
 - **git checkout branch_name** - switches to a branch
 - **git merge branch_name** - merges a branch into the current branch
 - **git branch -d branch_name** - deletes a branch
+- **git rebase branch_name** - rebases the current branch onto another branch, replaying the commits on top of the other branch
 
 ### Git workflow
+##### New branch workflow 
 - 1. Create a new branch (git checkout -b new_branch_name)
 - 2. Make changes to the code (git add file_name, git commit -m "commit message")
 - 3. Merge the changes into the main branch (git checkout main, git merge new_branch_name)
 - 4. Delete the branch (git branch -d new_branch_name)
+
+##### 2 parallel branches workflow (branch_1, branch_2) (rebase)
+- 1. Create a new branch (git checkout -b branch_1)
+- 2. Make changes to the code (git add file_name, git commit -m "commit message")
+- 3. Create a new branch (git checkout -b branch_2)
+- 4. Make changes to the code (git add file_name, git commit -m "commit message")
+- 5. Switch to branch_1 (git checkout branch_1)
+- 6. Rebase branch_1 onto branch_2 (git rebase branch_2)
+- 7. Merge the changes into the main branch (git checkout main, git merge branch_1)
+- 8. Delete the branches (git branch -d branch_1, git branch -d branch_2)
+
 
 #### Commit messages
 - **feat:** - a new feature
