@@ -25,7 +25,11 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "AI/Numeric ML/From Linear Separability to Kernel Trick.md",
+=======
+                "file": "Programming/git.md",
+>>>>>>> feat/gitnote
                 "mode": "source",
                 "source": false
               }
@@ -106,6 +110,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "Programming/git.md",
+>>>>>>> feat/gitnote
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +130,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
+=======
+                "file": "Programming/git.md",
+>>>>>>> feat/gitnote
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +155,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+<<<<<<< HEAD
               "state": {}
+=======
+              "state": {
+                "file": "Programming/git.md"
+              }
+>>>>>>> feat/gitnote
             }
           },
           {
@@ -174,8 +192,13 @@
   "active": "981dc1140e970dfc",
   "lastOpenFiles": [
     "AI/Numeric ML/From Linear Separability to Kernel Trick.md",
+<<<<<<< HEAD
     "Programming/git.md",
     "AI/Numeric ML/Perceptron.md",
+=======
+    "AI/Numeric ML/Perceptron.md",
+    "Programming/git.md",
+>>>>>>> feat/gitnote
     "Programming/git.md~",
     "k.md",
     "Maths/Probability Calculus.md~",
