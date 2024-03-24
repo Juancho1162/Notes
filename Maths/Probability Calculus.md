@@ -1,3 +1,9 @@
+---
+id: Probability Calculus
+aliases: []
+tags: []
+---
+
 #maths 
 ####  1. The Probability Space
 A probability space is a mathematical triplet ($\Omega$, $\mathcal{F}$, $\mathcal{P}$) that represent a **model** in which $\Omega$, $\mathcal{F}$, $\mathcal{P}$ need to be defined, fulfilling certain conditions. Formally, a **probability space** is a **measure space** such that the measure of the whole space is equal to one.
@@ -138,8 +144,18 @@ $$
 $$
 P(B)=\sum ^{m}_{i=1} P(B|A_i)P(A_i)
 $$
+To illustrate the Law of Total Probability, let's consider the following example:
+- $A_1$: The test is positive and the person is infected.
+- $A_2$: The test is positive and the person is not infected.
+- $A_3$: The test is negative and the person is infected.
+- $A_4$: The test is negative and the person is not infected.
+- $B$: The test is positive.
 
-For example
+The Law of Total Probability states that the probability of a positive test is the sum of the probability of a positive test given that the person is infected and the probability of a positive test given that the person is not infected:
+$$
+P(B)=P(B|A_1)P(A_1)+P(B|A_2)P(A_2)
+$$
+
 
 ## References
 - Heumann C., Schomaker M., **Introduction to Statistics and Data Science**.

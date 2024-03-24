@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Numeric ML/From Linear Separability to Kernel Trick.md",
+                "file": "Maths/Probability Calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Numeric ML/From Linear Separability to Kernel Trick.md",
+                "file": "Maths/Probability Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Numeric ML/From Linear Separability to Kernel Trick.md",
+                "file": "Maths/Probability Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Numeric ML/From Linear Separability to Kernel Trick.md"
+                "file": "Maths/Probability Calculus.md"
               }
             }
           },
@@ -169,13 +169,13 @@
   },
   "active": "a2ed089d9bde13f9",
   "lastOpenFiles": [
+    "Maths/Probability Calculus.md~",
     "AI/Numeric ML/Perceptron.md",
     "Programming/Nvim/Nvim Personal Keymaps.md",
     "Programming/Numpy/Einsum.md",
     "AI/Numeric ML/From Linear Separability to Kernel Trick.md",
     "AI/Numeric ML/Bayesian Learning.md",
     "Programming/Numpy",
-    "Maths/Probability Calculus.md~",
     "Maths/Probability Calculus.md",
     "Maths/4913",
     "Programming/Functional Programming/Haskell- 3. Types and classes.md",
